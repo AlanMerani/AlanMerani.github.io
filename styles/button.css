@@ -1,0 +1,84 @@
+/* MENU BUTTONS */
+
+.Home-button {
+  background-color: rgb(34, 96, 149);
+color: white;
+border: none;
+height: 40px;
+width: 100px;
+border-radius: 3px;
+cursor: pointer;
+margin-right: 20px;
+transition: opacity 0.5s;
+}
+                        
+                        
+.Home-button:hover {
+opacity: 0.8;
+}
+.Home-button:active {
+opacity: 0.6;
+}
+                        
+.Reserveren-button {
+  background-color: rgb(34, 96, 149);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: opacity 0.5s;
+}
+
+
+.Reserveren-button:hover {
+  opacity: 0.8;
+}
+.Reserveren-button:active {
+  opacity: 0.6;
+}
+
+
+.Prijzen-button {
+  background-color: rgb(34, 96, 149);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: opacity 0.5s;
+}
+
+
+.Prijzen-button:hover {
+  opacity: 0.8;
+}
+.Prijzen-button:active {
+  opacity: 0.6;
+}
+
+.Gallerij-button {
+  background-color: rgb(34, 96, 149);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+
+.Gallerij-button:hover {
+  opacity: 0.8;
+}
+.Gallerij-button:active {
+  opacity: 0.6;
+}
+.Gallerij-button :visited {
+  opacity: 0.1;
+}

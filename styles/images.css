@@ -1,0 +1,41 @@
+
+/* gallerij foto's */
+
+.center {
+  display: inline-block;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  width: 12%;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow properties as needed */
+}
+
+/* animaties */
+
+@keyframes foto-animatie {
+  from {width: 300px; height: 400px;}
+  to {width: 330px; height: 430px;}
+}
+
+.center:hover{
+  animation-name: foto-animatie;
+  animation-duration: 0.5s;
+  width: 330px; height: 430px;
+}
+
+
+.gallerij-container {
+  text-align: center; /* Center the images within the container */
+  margin-top: 200px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('barbershopbg.jpg');
+  background-size: cover;
+  background-position: center;
+}

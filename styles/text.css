@@ -1,0 +1,145 @@
+p {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0px;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+}
+
+
+/* HOMEPAGE TEXT */
+
+.Ontdek-barbershop {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 300px;
+  padding-left: 50px;
+  color: white;
+}
+
+
+/* RESERVEREN PAGINA */
+.Afspraak-maken {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 300px;
+  margin-left: 25px;
+  color: white;
+}
+
+/* PRIJZEN PAGINA */
+
+
+/* GALLERIJ PAGINA */
+
+
+/* HEADER */
+
+.header-shop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(53, 59, 72);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align buttons to the left */
+  padding-left: 20px; /* Optional: Add some padding to the left of the header */
+}
+
+.Barbershop-Merani {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display: inline;
+  margin-left: auto;
+  margin-right: 1500px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Adjust the shadow properties as needed */
+    margin-top: 20px;
+}
+  
+
+/* SERVICE EN PRIJZEN */
+
+  .services-container {
+    width: 300px; /* Set a fixed width for the container */
+    margin: 250px auto 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .service {
+    box-sizing: border-box; /* Include padding and border in the total width */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%; /* Make the width of each service box 100% */
+  }
+  
+  .service h3 {
+    color: white
+  }
+  
+  .service p {
+    color: #fff;
+    margin-top: 5px;
+  }
+
+
+  .Openings-tijden {
+    color: white;
+  }
+
+
+  /* FOOTER */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(53, 59, 72);
+    padding: 10px;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row; /* Change to column layout */
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+}
+
+.Contact-info,
+.Openings-tijden {
+    color: white; /* Set the text color to white or your preferred color */
+    text-align: center; /* Center the text within each secxtion */
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-items: start;
+}
+
+.Contact-info p,
+.Openings-tijden p {
+    margin: 5px 0; /* Adjust the margin to control spacing between lines */
+}
